@@ -2,7 +2,7 @@ body{
   color: rgb(52, 235, 161); /*colour picker online*/
   font-family: verdana;
   margin: 0 auto;
-  background-color: rgb(40,40,40);
+  background-color: white
 }
 
 /* Add a black background color to the top navigation */
@@ -40,7 +40,6 @@ h1 {
 
 
 .image1{
-  position: absolute;
   left: 45%;
   border-radius: 10px; /*higher radius gives cirvular image*/
   width="200px"
