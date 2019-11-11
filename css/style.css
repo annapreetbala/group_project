@@ -40,6 +40,9 @@ h1 {
 
 
 .image1{
+  display: block;
+  margin-left: auto;
+  margin-right;
   left: 45%;
   border-radius: 50px; /*higher radius gives cirvular image*/
   width="200px"
