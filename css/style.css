@@ -7,7 +7,7 @@ body{
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: rgb(40,40,40);
+  background-color: rgb(white);
   overflow: hidden;
 }
 
@@ -41,7 +41,7 @@ h1 {
 
 .image1{
   left: 45%;
-  border-radius: 10px; /*higher radius gives cirvular image*/
+  border-radius: 50px; /*higher radius gives cirvular image*/
   width="200px"
   height="200px"
 }
