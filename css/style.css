@@ -5,9 +5,9 @@ body{
   background-color: white
 }
 
-/* Add a black background color to the top navigation */
+
 .topnav {
-  background-color: rgb(40,40,40);
+  background-color: rgb(white);
   overflow: hidden;
 }
 
@@ -38,27 +38,24 @@ h1 {
   font-size: 4em;
 }
 
-
-.image1{
-  left: 45%;
-  border-radius: 10px; /*higher radius gives cirvular image*/
-  width="200px"
-  height="200px"
+.first-r {
+    left: 15%; position: relative;
 }
 
-.image2{
-
-  border-radius: 50px; /*higher radius gives cirvular image*/
-  width="200px"
-  height="200px"
+.second-r {
+  left: 27.5%; position: relative;
 }
+.third-r  {
+   left: 40%; position: relative;
+ }
+img  {  border-radius: 50px}
 
 ul{list-style: none;
   padding: 0;
   margin-bottom: 0%;
   font-size: 1.5em;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 li#lower {
@@ -83,6 +80,6 @@ margin: 0 20px; /* 1 2 3 4 clockwise top side bottom side*/
 transition: 0.6s ease;
 }
 li:hover { /*cursor event*/
-font-size: 2em;
+font-size: 1.5em;
 transition: 0.6s ease; /*visual effect*/
 }
