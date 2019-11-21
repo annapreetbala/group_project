@@ -1,8 +1,15 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 body{
   color: rgb(52, 235, 161); /*colour picker online*/
   font-family: verdana;
   margin: 0 auto;
-  background-color: white
+  background-image: linear-gradient(to bottom, white, white 50%, grey 50%, grey);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -35,7 +42,7 @@ body{
 
 h1 {
   text-align: center;
-  font-size: 4em;
+  font-size: 2.5em;
 }
 
 .first-r {
