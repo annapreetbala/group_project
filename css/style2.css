@@ -1,8 +1,15 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 body{
   color: rgb(52, 235, 161); /*colour picker online*/
   font-family: verdana;
   margin: 0 auto;
-  background-color: white
+  background-image: linear-gradient(to bottom, white, white 20%, #36332c 80%, #36332c);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -34,6 +41,20 @@ body{
 }
 
 h1 {
-  text-align: left;
-  font-size: 4em;
+  text-align: right;
+  font-size: 3.5em;
 }
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 100px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;}
