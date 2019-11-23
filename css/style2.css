@@ -7,7 +7,7 @@ body{
   color: rgb(52, 235, 161); /*colour picker online*/
   font-family: verdana;
   margin: 0 auto;
-  background-image: linear-gradient(to bottom, white 33%, #59615b 50%);
+  background-image: linear-gradient(to bottom, white 20%, #59615b 50%);
     background-size: cover;
     background-repeat: no-repeat;
 }
