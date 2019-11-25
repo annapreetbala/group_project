@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body{
+  color: rgb(52, 235, 161); /*colour picker online*/
+  font-family: verdana;
+  margin: 0 auto;
+  background-image: white
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.topnav {
+  background-color: rgb(white);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: rgb(52, 235, 161);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(52, 235, 161);
+  color: white;
+}
+
+h1 {
+  text-align: right;
+  font-size: 3.5em;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 100px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;}
